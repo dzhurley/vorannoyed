@@ -1,0 +1,23 @@
+body, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.vorannoyed, canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.polygons :first-child {
+    fill: white;
+}
+
+.sites :first-child {
+    fill: black !important;
+}
